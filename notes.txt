@@ -1,0 +1,2 @@
+idea:
+* "accidentally" display filename lie.htmll and it may or may 
