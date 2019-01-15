@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script> -->
+
+    <!-- Local Styles -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1> My Todo List </h1>
+
+    <!-- ToDo List -->
+    <form action="/foo.js">
+      <div class="table">
+          <div class="row">
+            <div class="cell col1">
+              <input type="checkbox" name="name1" id="1"> fooooooooooooo <br>
+            </div>
+            <div class="cell col2"> due date </div>
+            <div class="cell col3">
+              <button type="button" name="btn-delete">Delete</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell col1">
+              <input type="checkbox" name="name1" id="1"> foo <br>
+            </div>
+            <div class="cell col2"> due date </div>
+            <div class="cell col3">
+              <button type="button" name="delete-btn">Delete</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="cell col1">
+              <input type="checkbox" name="name1" id="1"> foo <br>
+            </div>
+            <div class="cell col2"> due date </div>
+            <div class="cell col3">
+              <button type="button" name="delete-btn">Delete</button>
+            </div>
+          </div>
+        <br>
+        <button type="button" name="btn-add">Add</button>
+      </div>
+    </form>
+  </body>
+</html>
+
+
+<!-- The code below can be refactored later to a new html file  -->
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1>New Todo Item</h1>
+    <div>
+      <form action="/newTodo.js">
+        title <input type="text" name="" value=""> <br>
+        due date <input type="text" name="" value=""> <br>
+        <button type="submit" name="btn-save">Save</button>
+        <button type="button" name="btn-cancel">Cancel</button>
+      </form>
+    </div>
+  </body>
+</html>

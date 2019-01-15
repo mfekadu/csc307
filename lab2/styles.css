@@ -1,0 +1,23 @@
+.table { display: table; }
+.row { display: table-row; }
+.cell {
+  display: table-cell;
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+}
+
+h1 {
+  padding:20;
+  margin:20;
+  background-color: green;
+  font-size: 30;
+}
+
+div {
+  background-color: cyan;
+  font-size: 20;
+  color: white;
+  padding:20; /* padding is inside the "box" */
+  margin:50; /* margin is outside the "box" */
+}
